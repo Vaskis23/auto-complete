@@ -1,0 +1,9 @@
+body{
+    background-color: #111;
+    color: white;
+}
+form > * {
+    display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+}
