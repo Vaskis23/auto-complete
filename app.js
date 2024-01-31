@@ -33,9 +33,9 @@ const loadFormData = (e) => {
         });
     } else {
         // HW1: Clear every input
-        document.querySelectorAll('input').forEach(input => {
-            input.value = '';
-        });
+        inputs.forEach((input) => {
+            input.value = ""
+     });
     }
 };
 
